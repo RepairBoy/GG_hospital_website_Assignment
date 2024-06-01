@@ -1,0 +1,441 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+.heading {
+  background-color: #f5f5f5;
+  display: flex;
+  width: 100%;
+  height: 52px;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialMediaHeading {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaHeading img {
+  width: 23.22px;
+  height: 23.22px;
+}
+.contactsHeading {
+  display: flex;
+  gap: 10px;
+  margin-right: 50px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.contactsHeading img {
+  margin-left: 20px;
+  width: 19px;
+  height: 15px;
+}
+#dropdown {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.secondHeading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 13px;
+}
+.hospitalLogo {
+  width: 293px;
+  height: 76px;
+  margin-left: 50px;
+}
+.mainMenu {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.mainSection {
+  margin-top: 13px;
+}
+#banner {
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+}
+#mainPicDiv {
+  width: 100%;
+}
+#mainPic {
+  width: 100%;
+  height: 794;
+}
+#bannerInfo h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+#bannerInfo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 520px;
+}
+#bannerPara {
+  font-size: 22px;
+  font-weight: 400;
+}
+#bannerButton {
+  height: 59px;
+  width: 238px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500px;
+  border: none;
+  background-color: #17c1a3;
+  color: #ffffff;
+}
+#bannerButtonDiv {
+  display: flex;
+  align-items: center;
+}
+#appointment {
+  height: 200px;
+  border: 20px solid #f5f5f5;
+  background-color: #f5f5f5;
+  width: 70%;
+  position: absolute;
+  border-radius: 10px;
+  left: 13%;
+  top: 650px;
+}
+#appointment p {
+  margin-bottom: 15;
+  margin-top: 0;
+}
+#appointmentForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+#input1,
+#input2,
+#appointmentForm select,
+#appointmentDateDiv {
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+#input6 {
+  background-color: #17c1a3;
+  border: none;
+  border-radius: 6px;
+}
+#appointmentDateDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+#input3 {
+  border: none;
+  margin-left: 1px;
+}
+#appointmentDateDiv img {
+  margin-right: 10px;
+  opacity: 50%;
+  width: 18px;
+  height: 18px;
+}
+#ourDepartmentSection {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 200px;
+}
+#ourDepTopPart {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#depPicDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+#depPic img {
+  width: 100%;
+  height: 275px;
+}
+#depPic a {
+  color: #17c1a3;
+}
+#whyGG {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#whyGG img {
+  width: 100%;
+}
+#meetSpecialists {
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#meetSpecialists h2 {
+  margin-bottom: 5px;
+}
+#specialistImgBox {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#specialistImgBox img {
+  width: 250px;
+}
+#meetSpecialists p {
+  color: #211e1e;
+  font-weight: 400;
+  opacity: 50%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+#specialistImgBox h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#specialistBtn {
+  height: 45px;
+  width: 160px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500px;
+  border: none;
+  background-color: #17c1a3;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+#facilities {
+  margin-top: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 250px;
+}
+#facilityTop {
+  margin-bottom: 10px;
+}
+#facilityTop img {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+}
+#facilityImgDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#facilityImgDiv img {
+  width: 350px;
+}
+#bottomBanner {
+  background-color: #eaf2ff;
+  position: relative;
+  padding-top: 300px;
+  display: flex;
+}
+#interested {
+  width: 92%;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 55%;
+}
+#interestTop {
+  margin-bottom: 10px;
+}
+#interestBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.interestBottomPic {
+  width: 350px;
+}
+.interestBottomPic a {
+  text-decoration: none;
+  color: #17c1a3;
+}
+.interestBottomPic p {
+  font-weight: 400;
+  font-size: 14px;
+}
+#interestBottom img {
+  width: 100%;
+}
+#suscribe {
+  padding: 8%;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #ffffff;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+#suscribeEmailBtn {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  background-color: #17c1a3;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+#suscribeEmailInput {
+  border: none;
+  width: 300px;
+}
+#suscribeEmail {
+  border-bottom: 1px solid black;
+}
+#suscribeEmailWallpaper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 30;
+  rotate: -22.49 deg;
+  width: 65%;
+  height: 100%;
+}
+#footerTop {
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+#footerTopRight {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#footerTopLeft {
+  max-width: 60%;
+}
+#footerTopLeft p {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 70%;
+}
+#footerTopRight pre {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+}
+#footerMid {
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#footerMidLeft,
+#footerMidLeftFirst,
+#footerMidLeftSecond {
+  display: flex;
+  width: 100%;
+}
+#footerMidLeft img {
+  height: 18px;
+  width: 16px;
+}
+#footerMidLeftFirst p,
+#footerMidLeftSecond p {
+  margin: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+#footerMidLeftSecond {
+  margin-left: 50px;
+}
+#footerMidRight {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#footerMidRightFirst {
+  display: flex;
+  width: 100%;
+}
+#footerMidRightFirst img {
+  height: 18px;
+  width: 16px;
+}
+#footerMidRightFirst p {
+  margin: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+#footerMidRightSecond h3 {
+  margin: 0;
+}
+#footerMidRightSecond {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+#footerMidRightSecondIcons img {
+  height: 30px;
+  width: 30px;
+  margin: 15px 10px 0 0;
+}
+#footerLow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footerLow p {
+  font-weight: 400;
+  font-size: 12px;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <!-- Start of body -->
+    <!-- first header part -->
+    <section class="heading">
+      <div class="socialMediaHeading">
+        <p>Follow us on:</p>
+        <img src="./images/Heading/linkedin.png" alt="linkedin" />
+        <img src="./images/Heading/youtube.png" alt="youtube" />
+        <img src="./images/Heading/instagram.png" alt="instagram" />
+        <img src="./images/Heading/facebook.png" alt="facebook" />
+      </div>
+      <div class="contactsHeading">
+        <img src="./images/Heading/phone.png" alt="phone" />
+        <p>0471 2779100 | 0471 279122</p>
+        <img src="./images/Heading/mail.png" alt="mail" />
+        <p>someone@gmail.com | anotherone@gamil.com</p>
+      </div>
+    </section>
+    <!-- Second header part -->
+    <section class="secondHeading">
+      <div class="hospitalLogo">
+        <img src="./images/Heading/hospital logo.png" alt="Hospital logo" />
+      </div>
+      <div class="mainMenu">
+        <p style="color: red">Home</p>
+        <p>About Us</p>
+        <p>Patient Care</p>
+        <select name="dropdown" id="dropdown">
+          <option selected disabled>Department</option>
+          <option value="1">Ortho</option>
+        </select>
+        <p>Academics & Research</p>
+        <p>News & Media</p>
+        <p>Careers</p>
+        <p>Contact Us</p>
+      </div>
+    </section>
+    <!-- Banner part -->
+    <section class="mainSection">
+      <div id="banner">
+        <div id="mainPicDiv">
+          <img
+            id="mainPic"
+            src="./images/Mainpics/bannerPic.png"
+            alt="banner pic"
+          />
+        </div>
+        <div id="bannerInfo">
+          <h1>Love & Care to Humanity</h1>
+          <p id="bannerPara">
+            Fastest-Growing Multi Speciality Hospital in South Kerala
+          </p>
+          <div id="bannerButtonDiv">
+            <button id="bannerButton">Book an Appointment</button>
+            <img
+              style="margin-left: 10%"
+              src="./images/Mainpics/playButton.png"
+              alt="playbutton"
+            />
+            <p style="margin-left: 3%"><u>Doctors Talk</u></p>
+          </div>
+        </div>
+      </div>
+      <div id="appointment">
+        <p class="m">Book an Appointment</p>
+        <form id="appointmentForm" action="/submit">
+          <input id="input1" type="text" placeholder="Full Name" />
+          <input type="number" name="" id="input2" placeholder="Phone Number" />
+          <div id="appointmentDateDiv">
+            <input type="text" name="" id="input3" placeholder="Select Date" />
+            <img src="./images/Mainpics/calenderIcon.png" alt="" />
+          </div>
+          <select name="" id="input4">
+            <option selected disabled>Select Department</option>
+            <option value="1">Ortho</option>
+          </select>
+          <select name="" id="input5">
+            <option selected disabled>Select Doctor</option>
+            <option value="1">Mr Sunny</option>
+          </select>
+          <button id="input6" type="button">Book an Appointment</button>
+        </form>
+      </div>
+    </section>
+    <!-- Our department section -->
+    <section id="ourDepartmentSection">
+      <div id="ourDepTopPart">
+        <div>
+          <h2>Our <br />Department</h2>
+        </div>
+        <div>
+          <img src="./images/Our Department/arrowRight.png" alt="" />
+        </div>
+      </div>
+      <div id="depPicDiv">
+        <div id="depPic">
+          <img src="./images/Our Department/pic1.png" alt="" />
+          <h3>Hepatobility Surgery</h3>
+          <p>
+            The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+            comprehensive...
+          </p>
+          <a href="">Read More</a>
+        </div>
+        <div id="depPic">
+          <img src="./images/Our Department/pic2.png" alt="" />
+          <h3>Medical Oncology</h3>
+          <p>
+            GG Hospital is the best affordable hospital in South Kerala which is
+            NABH accredited hospital...
+          </p>
+          <a href="">Read More</a>
+        </div>
+        <div id="depPic">
+          <img src="./images/Our Department/pic3.png" alt="" />
+          <h3>ENT, Head & Neck Skull Surgery</h3>
+          <p>
+            The ENT Department in GG Hospital provides a wide range of treatment
+            modalities including...
+          </p>
+          <a href="">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- A banner  -->
+    <div id="whyGG">
+      <img src="./images/whyGG.png" alt="" />
+    </div>
+    <!-- Specialist -->
+    <section id="meetSpecialists">
+      <div>
+        <h2>Meet Our Specialist</h2>
+        <p>We have the best Doctors in GG</p>
+      </div>
+      <div id="specialistImgBox">
+        <div>
+          <img src="./images/Specialists/specialist1.png" alt="" />
+          <h4>Lisha Powell</h4>
+          <p>ENT Specialists</p>
+        </div>
+        <div>
+          <img src="./images/Specialists/specialist2.png" alt="" />
+          <h4>Chris Nelson</h4>
+          <p>Cardiologists</p>
+        </div>
+        <div>
+          <img src="./images/Specialists/specialist3.png" alt="" />
+          <h4>Linda Stapleton</h4>
+          <p>Orthopaedic surgeons</p>
+        </div>
+        <div>
+          <img src="./images/Specialists/specialist4.png" alt="" />
+          <h4>Sandra John</h4>
+          <p>Psychiatrists</p>
+        </div>
+      </div>
+      <div>
+        <input type="button" value="View All" id="specialistBtn" />
+      </div>
+    </section>
+    <!-- Facilities -->
+    <section id="facilities">
+      <div id="facilityTop">
+        <h2>Facilities & Activities</h2>
+        <img src="./images/Our Department/arrowRight.png" alt="" />
+      </div>
+      <div id="facilityImgDiv">
+        <img src="./images/Facilities/pic1.png" alt="" />
+        <img src="./images/Facilities/pic2.png" alt="" />
+        <img src="./images/Facilities/pic3.png" alt="" />
+      </div>
+    </section>
+    <!-- Bottom banner -->
+    <section id="bottomBanner">
+      <div id="interested">
+        <div id="interestTop">
+          <h2>You may be Interested</h2>
+        </div>
+        <div id="interestBottom">
+          <div class="interestBottomPic">
+            <img src="./images/Interests/pic1.png" alt="" />
+            <h3>Hepatobility Surgery</h3>
+            <p>
+              The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+              comprehensive... <span><a href="">Read More</a></span>
+            </p>
+          </div>
+          <div class="interestBottomPic">
+            <img src="./images/Interests/pic2.png" alt="" />
+            <h3>Hepatobility Surgery</h3>
+            <p>
+              The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+              comprehensive... <span><a href="">Read More</a></span>
+            </p>
+          </div>
+          <div class="interestBottomPic">
+            <img src="./images/Interests/pic3.png" alt="" />
+            <h3>Hepatobility Surgery</h3>
+            <p>
+              The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+              comprehensive... <span><a href="">Read More</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="suscribe">
+        <div id="suscribeText">
+          <h3>Subscribe our <br />Newsletter Sign up</h3>
+        </div>
+        <div id="suscribeEmail">
+          <input
+            type="email"
+            name="email"
+            id="suscribeEmailInput"
+            placeholder="Enter your mail id"
+          />
+          <input type="button" value="Subscribe" id="suscribeEmailBtn" />
+          <img
+            src="./images/subscribe/suscribeWallpaper.png"
+            alt=""
+            id="suscribeEmailWallpaper"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div id="footerTop">
+        <div id="footerTopLeft">
+          <img src="./images/Footer/footerCompLogo.png" alt="" />
+          <p>
+            GG Hospital is the flagship hospital of the Sree Gokulam Group of
+            Companies. Our journey started on 27th January 2016 for the common
+            people in Trivandrum.
+          </p>
+        </div>
+        <div id="footerTopRight">
+          <div>
+            <h4>About GG</h4>
+            <pre>About Us       Academic</pre>
+            <pre>Hospital         Department</pre>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <pre>Privacy Policy             Documentation</pre>
+            <pre>Terms of Services       Site Map</pre>
+          </div>
+        </div>
+      </div>
+      <div id="footerMid">
+        <div id="footerMidLeft">
+          <div id="footerMidLeftFirst">
+            <img src="./images/Footer/footerHome.png" alt="" />
+            <p>
+              Medical College, Pattom Kumarapuram Rd, Murinjapalam,
+              Thiruvananthapuram, Kerala 695011
+            </p>
+          </div>
+          <div id="footerMidLeftSecond">
+            <img src="./images/Footer/footerPhone.png" alt="" />
+            <p>
+              0471 2779100 <br /><br />
+              0471 2779101
+            </p>
+          </div>
+        </div>
+        <div id="footerMidRight">
+          <div id="footerMidRightFirst">
+            <img src="./images/Footer/footerMail.png" alt="" />
+            <p>
+              gghospitalphkpl@gmail.com <br /><br />
+              edoffice@gg-hospital.com
+            </p>
+          </div>
+          <div id="footerMidRightSecond">
+            <div>
+              <h3>We are on Social Media</h3>
+            </div>
+            <div id="footerMidRightSecondIcons">
+              <img src="./images/Footer/footerLinkedIn.png" alt="" />
+              <img src="./images/Footer/footerYoutube.png" alt="" />
+              <img src="./images/Footer/footerInsta.png" alt="" />
+              <img src="./images/Footer/footerFacebook.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footerLow">
+        <p id="copyrights">© 2023 GG Hospital.</p>
+      </div>
+    </footer>
+    <!-- End of body -->
+  </body>
+</html>
